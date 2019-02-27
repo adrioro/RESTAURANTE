@@ -6,21 +6,35 @@ header{
   height: 150px;
   border: 1px solid #dcdcc8;
 }
+#Logo{
+  background-color: white;
+  width: 375px;
+  height:  150px;
+}
 nav {
   border: 1px solid #dcdcc8;
   width:960px;
   height:50px;
+  margin-bottom: 10px;
 }
 article{
   background-color: #f7f3ea;
   width: 960px;
   height: 500px;
+  margin-bottom: 10px;
 }
 .FeatureBox {
   background-color: #eadec6;
-  width: 310px;
+  width: 313px;
   height: 400px;
   float:left;
+  margin-right: 10px;
+}
+
+.FeatureBoxImage {
+  background-color: white;
+  width: 285px;
+  height: 130px;
 }
 footer{
   border: 1px solid #dcdcc8;
@@ -30,5 +44,5 @@ footer{
 }
 #Master{
   width: 960px;
-  margin-left: auto; margin-right: auto;
+  margin-left: auto; margin-right: auto; /*I want my Master centered*/
 }
