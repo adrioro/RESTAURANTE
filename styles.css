@@ -16,8 +16,15 @@ article{
   width: 960px;
   height: 500px;
 }
+.FeatureBox {
+  background-color: #eadec6;
+  width: 310px;
+  height: 400px;
+  float:left;
+}
 footer{
   border: 1px solid #dcdcc8;
   width: 960px;
   height: 50px;
+  clear:both;  /*It clears it from any floats*/
 }
