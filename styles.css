@@ -28,3 +28,7 @@ footer{
   height: 50px;
   clear:both;  /*It clears it from any floats*/
 }
+#Master{
+  width: 960px;
+  margin-left: auto; margin-right: auto;
+}
