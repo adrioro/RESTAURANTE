@@ -1,6 +1,21 @@
 body{
   background-color: #282828;
 }
+#topBanner {
+  width: 110%;
+  height: 50px;
+  background-color: white;
+  margin: -10px 0px 0 -10px;
+}
+#Master{
+  width: 960px;
+  margin-left: auto; margin-right: auto; /*I want my Master centered*/
+  border: 1px solid red;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
 header{
   width: 960px;
   height: 150px;
@@ -41,8 +56,4 @@ footer{
   width: 960px;
   height: 50px;
   clear:both;  /*It clears it from any floats*/
-}
-#Master{
-  width: 960px;
-  margin-left: auto; margin-right: auto; /*I want my Master centered*/
 }
