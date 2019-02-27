@@ -2,6 +2,8 @@
 
 body{
   background-color: #282828;
+  font-family: 'Roboto', sans-serif, Georgia, Times serif;
+  font-weight: 800 !important;
 }
 #topBanner {
   width: 110%;
@@ -62,4 +64,7 @@ footer{
   width: 960px;
   height: 50px;
   clear:both;  /*It clears it from any floats*/
+}
+h1{
+
 }
