@@ -50,6 +50,8 @@ article{
   background-color: white;
   width: 285px;
   height: 130px;
+  margin: 0 auto;
+  margin-top: 15px;
 }
 footer{
   border: 1px solid #dcdcc8;
