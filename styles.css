@@ -6,7 +6,7 @@ body{
   font-weight:300;
   font-size: 16px;
   color: rgb(126, 124, 124);
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
 }
 #topBanner {
   width: 110%;
@@ -83,4 +83,7 @@ text-transform: uppercase;
 font-weight: 700;
 letter-spacing: 3px;
 text-align: center;
+}
+p {
+  line-height: 20px;
 }
