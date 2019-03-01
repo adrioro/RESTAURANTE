@@ -5,7 +5,7 @@ body{
   font-family: 'Raleway', sans-serif, Georgia, Times serif;
   font-weight:300;
   font-size: 16px;
-  color: rgb(126, 124, 124);
+  color: rgb(110, 110, 110);
   letter-spacing: 1px;
 }
 #topBanner {
@@ -90,4 +90,5 @@ p {
   font-weight: bold;
   line-height: 30px;
   padding: 0 20px;
+  color: rgb(179, 174, 174);
 }
