@@ -53,14 +53,12 @@ article{
   margin-right: 10px;
   padding: 10px;
 }
-
 .FeatureBoxImage {
   background-color: white;
   width: 292px;
   height: 130px;
   margin: 0 auto;
   margin-bottom: 10px;
-
 }
 footer{
   border: 1px solid #dcdcc8;
@@ -86,4 +84,10 @@ text-align: center;
 }
 p {
   line-height: 20px;
+}
+.italicParagraph{
+  font-style: italic;
+  font-weight: bold;
+  line-height: 30px;
+  padding: 0 20px;
 }
