@@ -73,11 +73,12 @@ article{
   margin-bottom: 10px;
 }
 footer{
-  border: 1px solid #dcdcc8;
   width: 960px;
-  height: 50px;
+  height: 195px;
   clear:both;  /*It clears it from any floats*/
   margin: 0 auto;
+  border: 1px solid red;
+  padding-bottom: 25px;
 }
 h1{
   text-align: center;
@@ -104,15 +105,24 @@ h2,h3{
   font-weight: 300;
   font-style: oblique;
 }
-.LocationBox, .HoursBox{
+.LocationBox, .HoursBox, .divider{
   float: left;
-  width: 50%;
 }
-.LocationBox{
-  border-right: 1px solid #dcdcc8;
+.LocationBox, .HoursBox{
+  width: 49.9%;
+  text-align: center;
 }
+.divider{
+  width: 0.2%;
+  height: 100%;
+  background-color: #dcdcc8;
+}
+.horizontalLine {
+  width:50%;
+}
+
 p {
-  line-height: 20px;
+  line-height: 25px;
 }
 .menuParagraph{
   text-align: center;
@@ -123,4 +133,7 @@ p {
   line-height: 30px;
   padding: 0 20px;
   color: rgb(179, 174, 174);
+}
+.bold{
+  font-weight: 700;
 }
