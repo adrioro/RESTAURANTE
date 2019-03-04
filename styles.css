@@ -99,6 +99,18 @@ h2,h3{
   letter-spacing: 3px;
   text-align: center;
 }
+.FooterTitle{
+  color:#dcdcc8;
+  font-weight: 300;
+  font-style: oblique;
+}
+.LocationBox, .HoursBox{
+  float: left;
+  width: 50%;
+}
+.LocationBox{
+  border-right: 1px solid #dcdcc8;
+}
 p {
   line-height: 20px;
 }
