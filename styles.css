@@ -111,6 +111,8 @@ h2,h3{
 .LocationBox, .HoursBox{
   width: 49.9%;
   text-align: center;
+  color: rgb(179, 174, 174);
+  font-size: 14px;
 }
 .divider{
   width: 0.2%;
