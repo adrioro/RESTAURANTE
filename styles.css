@@ -13,7 +13,14 @@ body{
   height: 50px;
   background-color: white;
   margin: -10px 0px 0 -10px;
+  text-align: center;
 }
+.TopBannerText{
+  padding-top: 9px;
+  font-style: italic;
+  font-size: 12px;
+}
+
 #Master{
   width: 960px;
   margin-left: auto; margin-right: auto; /*I want my Master centered*/
@@ -67,6 +74,7 @@ nav li {
   margin-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
+  padding-bottom: 20px;
   border: 1px solid #f7f3ea;
 }
 .article2{
