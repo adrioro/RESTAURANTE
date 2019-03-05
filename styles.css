@@ -37,7 +37,6 @@ nav {
   border: 1px solid #dcdcc8;
   width:960px;
   height:35px;
-  margin-bottom: 10px;
   padding-top: 15px;
   text-align: center;
 }
@@ -51,12 +50,18 @@ nav li {
   text-transform: uppercase;
   margin-right: 20px;
 }
+.MainPhotoContainer{
+  width: 940px;
+  height: auto;
+}
 article{
   background-color: #f7f3ea;
   width: 940px;
   margin-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
+  border: 1px solid #f7f3ea;
+
 }
 .FeatureBox {
   background-color: #eadec6;
