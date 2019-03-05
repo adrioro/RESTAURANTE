@@ -54,14 +54,16 @@ nav li {
   width: 940px;
   height: auto;
 }
-article{
+.article1, .article2{
   background-color: #f7f3ea;
   width: 940px;
   margin-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
   border: 1px solid #f7f3ea;
-
+}
+.article2{
+  margin-top: 515px;
 }
 .FeatureBox {
   background-color: #eadec6;
