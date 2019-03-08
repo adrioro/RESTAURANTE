@@ -63,6 +63,18 @@ nav li {
   text-transform: uppercase;
   margin-right: 10px;
 }
+nav a{
+  color: #dcdcc8;
+  text-decoration: none;
+}
+nav a.active {
+  background-color: #585840;
+  color: #585840;
+}
+nav a:hover{
+  color:white;
+  text-decoration: none;
+}
 
 .MainPhotoContainer{
   width: 940px;
