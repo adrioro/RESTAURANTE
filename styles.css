@@ -46,7 +46,6 @@ padding-top: 3px;
 }
 
 nav {
-  border: 1px solid #dcdcc8;
   width:960px;
   height:80px;
   text-align: right;
@@ -86,13 +85,19 @@ nav a:active {
 }
 
 .MainPhotoContainer{
-  margin-top: 120px;
+  margin-top: 33px;
   width: 940px;
   height: auto;
 }
+.MainPhotoContainer img{
+  margin-left: -11px;
+  margin-bottom: -23px;
+
+
+}
 .article1, .article2, .Menu, #SectionAbout{
   background-color: #f7f3ea;
-  width: 940px;
+  width: 939px;
   margin-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
@@ -200,11 +205,18 @@ p {
   margin-top: 99px;
 }
 #PhotoSlider{
-  width:900px;
-  height: 400px;
-  border: 1px solid rgb(65, 65, 65);
+  width:960px;
+  height: auto;
+  border: 1px solid rgb(85, 79, 79);
   margin: 0 auto;
-  margin-top: 33px;
+  margin-top: 123px;
+  background-color: #d4c6a9;
+  margin-bottom: 9px;
+}
+#PhotoSlider img{
+  margin-top: 13px;
+  margin-bottom: 7px;
+  margin-left: 31px;
 }
 .menuBoxes{
   margin: 0 auto;
