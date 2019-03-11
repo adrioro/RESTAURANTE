@@ -102,17 +102,17 @@ nav a:active {
 .article2{
   margin-top: 515px;
 }
-.FeatureBox {
+.FeatureBox{
   background-color: #eadec6;
   width: 293px;
   float:left;
   margin-right: 10px;
   padding: 10px;
 }
-.FeatureBoxImage {
+.FeatureBoxImage{
   background-color: white;
   width: 292px;
-  height: 230px;
+  height: auto;
   margin: 0 auto;
   margin-bottom: 10px;
 }
@@ -130,10 +130,14 @@ h1{
   font-family: 'Lobster', cursive;
   font-size: 30px;
   color: rgb(179, 174, 174);
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
-h2{
+h2, .h2x {
 text-transform: uppercase;
+}
+.h2x {
+letter-spacing: 0px;
+font-size: 21px;
 }
 h3{
   font-size: 18px;
@@ -183,11 +187,38 @@ p {
 .bold{
   font-weight: 700;
 }
+.slideMenu{
+  margin-top: 99px;
+}
 #MainDishes{
   width:900px;
   height: 400px;
   border: 1px solid rgb(65, 65, 65);
   margin: 0 auto;
   margin-top: 55px;
+}
+.menuBoxes{
+  margin: 0 auto;
+  margin-top: 66px;
+}
 
+.menuBox{
+  width:275px;
+  heigh: auto;
+  background-color: #eadec6;
+  float:left;
+  margin-left: 6px;
+  margin-right: 6px;
+  padding: 12px;
+}
+.foodList {
+  margin-top: 33px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid red;
+  text-align: center;
+}
+.italic{
+  font-style: italic;
 }
