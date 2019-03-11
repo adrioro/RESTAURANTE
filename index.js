@@ -10,3 +10,13 @@ function myFunction() {
         navbar.classList.remove("sticky");
     }
 }
+
+/* Highlight current link */
+function linkHighlight() {
+    $('nav a').removeClass('selected');
+    $('nav a').click(function () {
+        $('nav a').removeClass('selected');
+        $(this).toggleClass('selected');
+    });
+}
+linkHighlight();

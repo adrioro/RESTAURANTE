@@ -14,6 +14,8 @@ body{
   background-color: white;
   margin: -10px 0px 0 -10px;
   text-align: center;
+  position:fixed;
+  top:0;
 }
 .TopBannerText{
   padding-top: 9px;
@@ -24,7 +26,7 @@ body{
 #Master{
   width: 960px;
   margin-left: auto; margin-right: auto; /*I want my Master centered*/
-  border: 1px solid red;
+
   padding-left: 5px;
   padding-right: 5px;
   margin-top: 0px;
@@ -48,6 +50,10 @@ nav {
   width:960px;
   height:80px;
   text-align: right;
+  position:fixed;
+  top:0;
+  margin-top: 40px;
+  background-color: #282828;
 }
 nav ul {
 margin: 0;
@@ -67,13 +73,16 @@ nav a{
   color: #dcdcc8;
   text-decoration: none;
 }
-nav a.active {
-  background-color: #585840;
-  color: #585840;
+
+/* mouse over */
+nav a:hover {
+  color: #aaaa8f;
 }
-nav a:hover{
-  color:white;
-  text-decoration: none;
+nav a.selected {
+  text-decoration: underline;
+}
+nav a:active {
+  color: black;
 }
 
 .MainPhotoContainer{
@@ -88,6 +97,7 @@ nav a:hover{
   padding-right: 10px;
   padding-bottom: 20px;
   border: 1px solid #f7f3ea;
+  margin-top: 80px;
 }
 .article2{
   margin-top: 515px;
@@ -111,7 +121,7 @@ footer{
   height: 195px;
   clear:both;  /*It clears it from any floats*/
   margin: 0 auto;
-  border: 1px solid red;
+  
   padding-bottom: 25px;
 }
 h1{
