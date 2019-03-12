@@ -4,11 +4,8 @@ $(document).ready(function () {
     $("#SectionLocation").hide();
     $("#HomeSection").show();
 });
-
 //Navbar fixed//
-
 window.onscroll = function () { myFunction() };
-
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 
@@ -19,8 +16,6 @@ function myFunction() {
         navbar.classList.remove("sticky");
     }
 }
-
-
 /* Highlight current link */
 function linkHighlight() {
     $('nav a').removeClass('selected');
@@ -30,19 +25,15 @@ function linkHighlight() {
     });
 }
 linkHighlight();
-
 //Hide Elements//
-
 function hideSections(buttonClicked, hide1, hide2, hide3, showThis) {
     $(buttonClicked).click(function () {
         $(hide1).hide();
         $(hide2).hide();
         $(hide3).hide();
         $(showThis).show();
-
     });
 };
-
 hideSections("#Menu", "#HomeSection", "#SectionAbout", "#SectionLocation", "#SectionMenu");
 hideSections("#Home", "#SectionMenu", "#SectionAbout", "#SectionLocation", "#HomeSection");
 hideSections("#About", "#SectionMenu", "#HomeSection", "#SectionLocation", "#SectionAbout");
