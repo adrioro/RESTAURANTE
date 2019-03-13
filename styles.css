@@ -24,7 +24,7 @@ body{
   font-size: 12px;
 }
 #Master{
-  width: 960px;
+  width: 940px;
   margin-left: auto; margin-right: auto; /*I want my Master centered*/
   padding-left: 5px;
   padding-right: 5px;
@@ -42,13 +42,14 @@ body{
   height: auto;
 }
 nav {
-  width:963px;
+  width:960px;
   height:80px;
   text-align: right;
   position:fixed;
   top:0;
   margin-top: 40px;
   background-color: #282828;
+  border:1px solid #282828;
 }
 nav ul {
 margin: 0;
@@ -94,6 +95,7 @@ nav a:active {
   padding-right: 10px;
   padding-bottom: 20px;
   border: 1px solid #f7f3ea;
+  margin: 0 auto;
 }
 .Menu{
   margin-top: 80px;
