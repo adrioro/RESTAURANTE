@@ -40,14 +40,13 @@ body{
   width: 179px;
   height:  71px;
   float:left;
-  background-color: red;
 }
 .LogoImage{
   width: 95%;
   height: auto;
 }
 nav {
-  width:960px;
+  width:320px;
   height:80px;
   text-align: right;
   top:0;
@@ -82,13 +81,12 @@ padding-right: 20px;
   color: black;
 }
 .MainPhotoContainer{
-
-  width: 940px;
-  height: auto;
+  display: none;
 }
 .MainPhotoContainer img{
   margin-left: -11px;
   margin-bottom: -23px;
+  display: none;
 }
 .article1, .article2, .Menu, #SectionAbout, #LocationBox, #ContactBox{
   background-color: #f7f3ea;
@@ -157,20 +155,25 @@ footer{
   padding: 0 45px;
   color: rgb(140, 122, 122);
 }
-
 #PhotoSlider{
-  width:960px;
+  width:320px;
   height: auto;
-  border: 1px solid rgb(85, 79, 79);
+  border: 5px solid rgb(85, 79, 79);
   margin: 0 auto;
-  margin-top: 0px;
   background-color: #d4c6a9;
   margin-bottom: 9px;
+  padding-bottom: 9px;
+  padding-top: 9px;
+
+
 }
 #PhotoSlider img{
-  margin-top: 13px;
-  margin-bottom: 7px;
-  margin-left: 31px;
+  width:270px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 .menuBoxes{
   margin: 0 auto;
@@ -287,6 +290,7 @@ h1{
 .LogoImage{
   width: 100%;
   height: auto;
+  background-color: red; /* ONLY FOR TESTING QUERY. REMOVE*/
 }
 nav {
   width:960px;
@@ -410,6 +414,8 @@ footer{
   margin-bottom: 9px;
 }
 #PhotoSlider img{
+  width:94%;
+  height: auto;
   margin-top: 13px;
   margin-bottom: 7px;
   margin-left: 31px;
