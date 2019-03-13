@@ -8,21 +8,26 @@ body{
   letter-spacing: 1px;
 }
 #topBanner, #bottomBanner{
-  width: 110%;
+  width: 105%;
   height: 50px;
   background-color: white;
+  margin: -9px;
   text-align: center;
-  margin: -10px 0px 0px -10px;
+
 }
 #topBanner{
   top:0;
   position:fixed;
+}
+#bottomBanner{
+  margin-bottom: 0px;
 }
 .TopBannerText, .bottomBannerText{
   padding-top: 9px;
   font-style: italic;
   font-size: 12px;
 }
+
 #Master{
   width: 960px;
   margin-left: auto; margin-right: auto; /*I want my Master centered*/
@@ -42,44 +47,42 @@ body{
   height: auto;
 }
 nav {
-  width:970px;
+  width:960px;
   height:80px;
   text-align: right;
-  position:fixed;
   top:0;
   margin-top: 40px;
   background-color: #282828;
-  border:1px solid red
 }
-nav ul {
+#Master nav ul {
 margin: 0;
 padding: 0;
 text-align: right;
 padding-top: 30px;
 padding-right: 20px;
 }
-nav li {
+#Master nav li {
   color:#dcdcc8;
   display: inline;
   text-transform: uppercase;
   margin-right: 10px;
 }
-nav a{
+#Master nav a{
   color: #dcdcc8;
   text-decoration: none;
 }
 /* mouse over */
-nav a:hover {
+#Master nav a:hover {
   color: #aaaa8f;
 }
-nav a.selected {
+#Master nav a.selected {
   text-decoration: underline;
 }
-nav a:active {
+#Master nav a:active {
   color: black;
 }
 .MainPhotoContainer{
-  margin-top: 33px;
+
   width: 940px;
   height: auto;
 }
@@ -96,21 +99,14 @@ nav a:active {
   padding-bottom: 20px;
   border: 1px solid #f7f3ea;
 }
-.Menu{
-  margin-top: 80px;
-}
-.article2{
-  margin-top: 515px;
-}
-.article1{
-  margin-top: 0px;
-}
+
 .FeatureBox{
   background-color: #eadec6;
   width: 293px;
   float:left;
   margin-right: 10px;
   padding: 10px;
+  margin-bottom: 50px;
 }
 .FeatureBoxImage{
   background-color: white;
@@ -124,7 +120,7 @@ footer{
   height: 195px;
   clear:both;  /*It clears it from any floats*/
   margin: 0 auto;
-  padding-bottom: 25px;
+  padding-bottom: 7px;
 }
 .MainSectionTitle{
   padding-top: 30px;
@@ -161,15 +157,13 @@ footer{
   padding: 0 45px;
   color: rgb(140, 122, 122);
 }
-.slideMenu{
-  margin-top: 99px;
-}
+
 #PhotoSlider{
   width:960px;
   height: auto;
   border: 1px solid rgb(85, 79, 79);
   margin: 0 auto;
-  margin-top: 123px;
+  margin-top: 0px;
   background-color: #d4c6a9;
   margin-bottom: 9px;
 }
@@ -213,8 +207,8 @@ footer{
 .italic{
   font-style: italic;
 }
-.SectionTitle {
-  margin-top: 135px;
+.SectionTitle, .slideMenu {
+  margin-top: 45px;
 }
 .bold{
   font-weight: 700;
@@ -245,4 +239,27 @@ h1{
   font-size: 30px;
   color: rgb(179, 174, 174);
   letter-spacing: 3px;
+}
+#BottomNavbar{
+  width:90px;
+  height:90px;
+  background-color: rgb(65, 65, 65);
+  margin: 0 auto;
+  text-align: center;
+  border-radius:200px;
+  margin-bottom: 23px;
+  text-decoration: none;
+}
+#BottomNavbar .arrow{
+  font-size: 28px;
+  color:#dcdcc8;
+  text-decoration: none;
+  padding-top: 33px;
+}
+/* mouse over */
+#BottomNavbar:hover{
+  background-color: rgb(83, 82, 82);
+}
+#BottomNavbar .arrow:active {
+  color: black;
 }

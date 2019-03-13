@@ -40,3 +40,11 @@ hideSections("#About", "#SectionMenu", "#HomeSection", "#SectionLocation", "#Sec
 hideSections("#Location", "#SectionMenu", "#HomeSection", "#SectionAbout", "#SectionLocation");
 hideSections("#Logo", "#SectionMenu", "#SectionAbout", "#SectionLocation", "#HomeSection");
 hideSections(".GoToMenu", "#SectionAbout", "#SectionLocation", "#HomeSection", "#SectionMenu");
+
+//Arrow Up//
+function MoveUpArrow() {
+    $("#BottomNavbar").click(function () {
+        $(document).scrollTop(0);
+    });
+};
+MoveUpArrow();
