@@ -1,4 +1,6 @@
 /* /// LAYOUT /// */
+
+
 body{
   background-color: #282828;
   font-family: 'Raleway', sans-serif, Georgia, Times serif;
@@ -9,7 +11,6 @@ body{
 }
 
 #topBanner, #bottomBanner{
-  width: 105%;
   height: 50px;
   background-color: white;
   margin: -9px;
@@ -39,7 +40,9 @@ body{
   padding-top: 3px;
   width: 179px;
   height:  71px;
-  float:left;
+  margin-right: auto;
+  margin-left: auto;
+
 }
 .LogoImage{
   width: 95%;
@@ -114,7 +117,7 @@ padding-right: 20px;
   margin-bottom: 10px;
 }
 footer{
-  width: 960px;
+  width: 320px;
   height: 195px;
   clear:both;  /*It clears it from any floats*/
   margin: 0 auto;
