@@ -39,7 +39,7 @@ body{
   padding-left: 5px;
   padding-right: 5px;
   margin-top: 0px;
-  margin-bottom: -10px;
+  margin-bottom: 0px;
 }
 #Logo{
   padding-top: 3px;
@@ -65,7 +65,7 @@ nav {
 margin: 0;
 padding: 0;
 text-align: center;
-padding-top: 30px;
+padding-top: 0px;
 padding-right: 20px;
 }
 #Master nav li {
@@ -91,9 +91,11 @@ padding-right: 20px;
   color: black;
 }
 .MainPhotoContainer img{
-  width: 329px;
+  width: 309px;
   height: auto;
-  margin-left: -11px;
+  margin-left: auto;
+  margin-top: auto;
+  padding-bottom: 9px;
   margin-bottom: -23px;
 }
 .article1, .article2, .Menu, #SectionAbout, #LocationBox, #ContactBox{
@@ -115,7 +117,7 @@ padding-right: 20px;
   padding: 10px;
   margin-bottom: 50px;
   margin: 0 auto;
-  margin-top: 9px;
+  margin-top: 21px;
 }
 .FeatureBoxImage{
   background-color: #eadec6;
@@ -165,23 +167,14 @@ footer{
 .FeatureBox .GoToMenu{
   text-align: center;
 }
-#PhotoSlider{
-  width:300px;
-  height: auto;
-  border: 5px solid rgb(85, 79, 79);
-  margin: 0 auto;
-  background-color: #d4c6a9;
-  margin-bottom: 9px;
-  margin-top: 21px;
-  padding-bottom: 9px;
-  padding-top: 9px;
-}
+
 #PhotoSlider img{
-  width:270px;
+  width:329px;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border:1px solid rgb(179, 174, 174);
 
 }
 .menuBoxes{
@@ -275,6 +268,9 @@ h1{
 #BottomNavbar .arrow:active {
   color: black;
 }
+.phone{
+  color:rgb(102, 99, 249);
+}
 
 
 
@@ -299,7 +295,6 @@ h1{
 .LogoImage{
   width: 100%;
   height: auto;
-  background-color: red; /* ONLY FOR TESTING QUERY. REMOVE*/
 }
 nav {
   width:960px;
@@ -342,7 +337,9 @@ padding-right: 20px;
   width: 960px;
   height: auto;
   margin-left: -11px;
+  margin-top: 0;
   margin-bottom: -23px;
+  padding-bottom: 0px;
 }
 
 .article1, .article2, .Menu, #SectionAbout, #LocationBox, #ContactBox{
@@ -522,5 +519,8 @@ h1{
 }
 #BottomNavbar .arrow:active {
   color: black;
+}
+.phone{
+  color:rgb(179, 174, 174);
 }
 }/*It closes media query*/
