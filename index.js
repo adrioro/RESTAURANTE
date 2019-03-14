@@ -54,7 +54,7 @@ $(window).resize(function () {
     if ($("#topBanner").width() >= 768) {
         // is desktop
         $("#Home").show();
-        $("#topBanner p").text("Some Avenue ◆ Some City, Some State 59323 ◆ 1 - 328 - 455 - 2211 ◆ NO RESERVATIONS").css({ 'color': 'red' });;
+        $("#topBanner p").text("Some Avenue ◆ Some City, GA 59323 ◆ 1 - 328 - 455 - 2211 ◆ NO RESERVATIONS").css({ 'color': 'red' });;
 
 
     }
