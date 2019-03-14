@@ -1,6 +1,4 @@
 /* /// LAYOUT /// */
-
-
 body{
   background-color: #282828;
   font-family: 'Raleway', sans-serif, Georgia, Times serif;
@@ -9,8 +7,11 @@ body{
   color: rgb(110, 110, 110);
   letter-spacing: 1px;
 }
-
+#Home{
+  display: none;
+}
 #topBanner, #bottomBanner{
+  width: 101%;
   height: 50px;
   background-color: white;
   margin: -9px;
@@ -22,11 +23,15 @@ body{
 }
 #bottomBanner{
   margin-bottom: 0px;
+  background-color: #282828;
 }
 .TopBannerText, .bottomBannerText{
   padding-top: 9px;
   font-style: italic;
   font-size: 12px;
+}
+.bottomBannerText a{
+  color:rgb(110, 110, 110);
 }
 #Master{
   width: 320px;
@@ -49,25 +54,27 @@ body{
   height: auto;
 }
 nav {
-  width:320px;
-  height:80px;
-  text-align: right;
+  width:330px;
+  height:auto;
+  text-align: center;
   top:0;
-  margin-top: 40px;
+  margin-top: 55px;
   background-color: #282828;
 }
 #Master nav ul {
 margin: 0;
 padding: 0;
-text-align: right;
+text-align: center;
 padding-top: 30px;
 padding-right: 20px;
 }
 #Master nav li {
   color:#dcdcc8;
-  display: inline;
+  display:block;
   text-transform: uppercase;
   margin-right: 10px;
+  padding: 9px;
+  margin-left: 36px;
 }
 #Master nav a{
   color: #dcdcc8;
@@ -83,13 +90,11 @@ padding-right: 20px;
 #Master nav a:active {
   color: black;
 }
-.MainPhotoContainer{
-  display: none;
-}
 .MainPhotoContainer img{
+  width: 329px;
+  height: auto;
   margin-left: -11px;
   margin-bottom: -23px;
-  display: none;
 }
 .article1, .article2, .Menu, #SectionAbout, #LocationBox, #ContactBox{
   background-color: #f7f3ea;
@@ -100,6 +105,7 @@ padding-right: 20px;
   padding-right: 10px;
   padding-bottom: 20px;
   border: 1px solid #f7f3ea;
+  margin-top: 21px;
 }
 .FeatureBox{
   background-color: #eadec6;
@@ -160,16 +166,15 @@ footer{
   text-align: center;
 }
 #PhotoSlider{
-  width:320px;
+  width:300px;
   height: auto;
   border: 5px solid rgb(85, 79, 79);
   margin: 0 auto;
   background-color: #d4c6a9;
   margin-bottom: 9px;
+  margin-top: 21px;
   padding-bottom: 9px;
   padding-top: 9px;
-
-
 }
 #PhotoSlider img{
   width:270px;
@@ -199,9 +204,8 @@ footer{
   margin-top: 55px;
 }
 #LocationMap{
-  width:600px;
-  height: 300px;
-  margin-left: 170px;
+
+  margin-left: 0px;
   border: 1px solid rgb(85, 79, 79);
   margin-top: 43px;
   margin-bottom: 43px;
@@ -256,7 +260,7 @@ h1{
   border-radius:200px;
   margin-bottom: 23px;
   text-decoration: none;
-  margin-top: 209px;
+  margin-top: 33px;
 }
 #BottomNavbar .arrow{
   font-size: 28px;
@@ -317,6 +321,8 @@ padding-right: 20px;
   display: inline;
   text-transform: uppercase;
   margin-right: 10px;
+  padding: 9px;
+  margin-left: 0px;
 }
 #Master nav a{
   color: #dcdcc8;
@@ -332,15 +338,13 @@ padding-right: 20px;
 #Master nav a:active {
   color: black;
 }
-.MainPhotoContainer{
-
-  width: 940px;
-  height: auto;
-}
 .MainPhotoContainer img{
+  width: 960px;
+  height: auto;
   margin-left: -11px;
   margin-bottom: -23px;
 }
+
 .article1, .article2, .Menu, #SectionAbout, #LocationBox, #ContactBox{
   background-color: #f7f3ea;
   width: 939px;
@@ -350,6 +354,7 @@ padding-right: 20px;
   padding-right: 10px;
   padding-bottom: 20px;
   border: 1px solid #f7f3ea;
+  margin-top: 0;
 }
 .FeatureBox{
   background-color: #eadec6;
@@ -415,6 +420,7 @@ footer{
   border: 1px solid rgb(85, 79, 79);
   margin: 0 auto;
   margin-top: 0px;
+  margin-bottom: 0px;
   background-color: #d4c6a9;
   margin-bottom: 9px;
 }

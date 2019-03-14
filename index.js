@@ -49,12 +49,14 @@ function MoveUpArrow() {
 };
 MoveUpArrow();
 
-/*NAV Menu*/
-function myFunction() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-        x.style.display = "none";
-    } else {
-        x.style.display = "block";
+$(window).resize(function () {
+
+    if ($("#topBanner").width() >= 768) {
+        // is desktop
+        $("#Home").show();
+        $("#topBanner p").text("Some Avenue ◆ Some City, Some State 59323 ◆ 1 - 328 - 455 - 2211 ◆ NO RESERVATIONS").css({ 'color': 'red' });;
+
+
     }
-}
+
+});
