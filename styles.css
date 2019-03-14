@@ -351,8 +351,6 @@ padding-right: 20px;
   padding-bottom: 20px;
   border: 1px solid #f7f3ea;
 }
-
-
 .FeatureBox{
   background-color: #eadec6;
   width: 293px;
@@ -495,6 +493,7 @@ h1{
   color: rgb(179, 174, 174);
   letter-spacing: 3px;
 }
+
 #BottomNavbar{
   width:90px;
   height:90px;
