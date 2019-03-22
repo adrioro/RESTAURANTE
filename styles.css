@@ -47,7 +47,6 @@ body{
   height:  71px;
   margin-right: auto;
   margin-left: auto;
-
 }
 .LogoImage{
   width: 95%;
@@ -128,7 +127,6 @@ padding-right: 20px;
 div .one{
   margin-bottom: 45px;
 }
-
 footer{
   width: 320px;
   height: 195px;
@@ -274,9 +272,7 @@ h1{
 
 
 /*MEDIA QUERY FOR DESKTOP*/
-
 @media only screen and (min-width: 768px) {
-
 #Master{
   width: 960px;
   margin-bottom: -10px;
