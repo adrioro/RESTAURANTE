@@ -97,7 +97,7 @@ padding-right: 20px;
   padding-bottom: 9px;
   margin-bottom: -23px;
 }
-.article1, .article2, .Menu, #SectionAbout, #LocationBox, #ContactBox{
+.article1, .article2, .Menu, #SectionAbout,#ContactBox{
   background-color: #f7f3ea;
   width: 308px;
   height: auto;
@@ -305,7 +305,7 @@ padding-top: 30px;
   margin-top: 0;
   padding-bottom: 0px;
 }
-.article1, .article2, .Menu, #SectionAbout, #LocationBox, #ContactBox{
+.article1, .article2, .Menu, #SectionAbout{
   width: 939px;
   margin-top: 0;
 }
@@ -322,13 +322,15 @@ footer{
   width: 960px;
   margin: 0 auto;
 }
-.FooterTitle{
-}
 .LocationBox, .HoursBox{
-  width: 49.9%;
+  width: 100%;
+  margin-top: 0;
 }
-.LocationBox{
-  float:right;
+#LocationBox{
+  background-color: #f7f3ea;
+  padding-bottom: 30px;
+  padding-top: 3px;
+
 }
 .divider{
   width: 0.2%;
@@ -361,6 +363,9 @@ footer{
   border: 1px solid rgb(85, 79, 79);
   margin-top: 43px;
   margin-bottom: 43px;
+}
+.LocationHoursBox, #location, #hours, .FooterTitle.one, .FooterTitle.two, #location p, #hours p{
+  border:2px solid #282828;
 }
 
 }/*It closes media query*/
