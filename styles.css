@@ -167,7 +167,6 @@ footer{
 .FeatureBox .GoToMenu{
   text-align: center;
 }
-
 #PhotoSlider img{
   width:329px;
   height: auto;
@@ -175,7 +174,6 @@ footer{
   margin-left: auto;
   margin-right: auto;
   border:1px solid rgb(179, 174, 174);
-
 }
 .menuBoxes{
   margin: 0 auto;
@@ -197,7 +195,8 @@ footer{
   margin-top: 55px;
 }
 #LocationMap{
-
+  width:300px;
+  height: 300px;
   margin-left: 0px;
   border: 1px solid rgb(85, 79, 79);
   margin-top: 43px;
@@ -280,114 +279,57 @@ h1{
 
 #Master{
   width: 960px;
-  margin-left: auto; margin-right: auto; /*I want my Master centered*/
-  padding-left: 5px;
-  padding-right: 5px;
-  margin-top: 0px;
   margin-bottom: -10px;
 }
 #Logo{
-  padding-top: 3px;
   width: 187px;
   height:  79px;
   float:left;
 }
 .LogoImage{
   width: 100%;
-  height: auto;
 }
 nav {
   width:960px;
   height:80px;
   text-align: right;
-  top:0;
   margin-top: 40px;
-  background-color: #282828;
 }
 #Master nav ul {
-margin: 0;
-padding: 0;
 text-align: right;
 padding-top: 30px;
-padding-right: 20px;
 }
 #Master nav li {
-  color:#dcdcc8;
   display: inline;
-  text-transform: uppercase;
-  margin-right: 10px;
-  padding: 9px;
   margin-left: 0px;
-}
-#Master nav a{
-  color: #dcdcc8;
-  text-decoration: none;
-}
-/* mouse over */
-#Master nav a:hover {
-  color: #aaaa8f;
-}
-#Master nav a.selected {
-  text-decoration: underline;
-}
-#Master nav a:active {
-  color: black;
 }
 .MainPhotoContainer img{
   width: 960px;
-  height: auto;
   margin-left: -11px;
   margin-top: 0;
-  margin-bottom: -23px;
   padding-bottom: 0px;
 }
-
 .article1, .article2, .Menu, #SectionAbout, #LocationBox, #ContactBox{
-  background-color: #f7f3ea;
   width: 939px;
-  height: auto;
-  margin-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 20px;
-  border: 1px solid #f7f3ea;
   margin-top: 0;
 }
 .FeatureBox{
-  background-color: #eadec6;
   width: 293px;
   float:left;
-  margin-right: 10px;
-  padding: 10px;
-  margin-bottom: 50px;
 }
 .FeatureBoxImage{
   background-color: white;
-  width: 292px;
-  height: auto;
   margin: 0 auto;
   margin-bottom: 10px;
 }
 footer{
   width: 960px;
-  height: 195px;
-  clear:both;  /*It clears it from any floats*/
   margin: 0 auto;
-  padding-bottom: 7px;
-}
-.MainSectionTitle{
-  padding-top: 30px;
 }
 .FooterTitle{
-  color:#dcdcc8;
-  font-weight: 300;
-  font-style: oblique;
 }
 .LocationBox, .HoursBox{
   width: 49.9%;
-  text-align: center;
-  color: rgb(179, 174, 174);
-  font-size: 14px;
 }
 .LocationBox{
   float:right;
@@ -397,20 +339,9 @@ footer{
   height: 200px;
   background-color: #dcdcc8;
 }
-.horizontalLine {
-  width:50%;
-}
 .menuParagraph, .GoToMenu{
   text-align: center;
 }
-.italicParagraph{
-  font-style: italic;
-  font-weight: bold;
-  line-height: 30px;
-  padding: 0 45px;
-  color: rgb(140, 122, 122);
-}
-
 #PhotoSlider{
   width:960px;
   height: auto;
@@ -423,104 +354,17 @@ footer{
 }
 #PhotoSlider img{
   width:94%;
-  height: auto;
   margin-top: 13px;
   margin-bottom: 7px;
   margin-left: 31px;
 }
-.menuBoxes{
-  margin: 0 auto;
-  margin-top: 66px;
-  height:auto;
-}
-.foodList {
-  margin-top: 33px;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-}
-.FullParagraph{
-  padding: 0 15px 0 15px;
-  text-align:justify;
-}
-.TopTitleMargin{
-  margin-top: 55px;
-}
 #LocationMap{
-  width:600px;
+  width:300px;
   height: 300px;
-  margin-left: 170px;
+  margin: 0 auto;
   border: 1px solid rgb(85, 79, 79);
   margin-top: 43px;
   margin-bottom: 43px;
 }
-/* /// TEXT FORMATING /// */
-.TestimonialName{
-  font-style: normal;
-  font-weight: bold;
-}
-.italic{
-  font-style: italic;
-}
-.SectionTitle, .slideMenu {
-  margin-top: 45px;
-}
-.bold{
-  font-weight: 700;
-}
-p {
-  line-height: 25px;
-}
-h2, .h2x {
-  text-transform: uppercase;
-}
-.h2x {
-  letter-spacing: 0px;
-  font-size: 21px;
-  margin-top: 33px;
-}
-h3{
-  font-size: 18px;
-}
-h2,h3{
-  color: rgb(65, 65, 65);
-  font-weight: 700;
-  letter-spacing: 3px;
-  text-align: center;
-}
-h1{
-  text-align: center;
-  font-family: 'Lobster', cursive;
-  font-size: 30px;
-  color: rgb(179, 174, 174);
-  letter-spacing: 3px;
-}
 
-#BottomNavbar{
-  width:90px;
-  height:90px;
-  background-color: rgb(65, 65, 65);
-  margin: 0 auto;
-  text-align: center;
-  border-radius:200px;
-  margin-bottom: 23px;
-  text-decoration: none;
-}
-#BottomNavbar .arrow{
-  font-size: 28px;
-  color:#dcdcc8;
-  text-decoration: none;
-  padding-top: 33px;
-}
-/* mouse over */
-#BottomNavbar:hover{
-  background-color: rgb(83, 82, 82);
-}
-#BottomNavbar .arrow:active {
-  color: black;
-}
-.phone{
-  color:rgb(179, 174, 174);
-}
 }/*It closes media query*/
