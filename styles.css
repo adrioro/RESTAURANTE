@@ -1,4 +1,6 @@
 /* /// LAYOUT /// */
+
+
 body{
   background-color: #282828;
   font-family: 'Raleway', sans-serif, Georgia, Times serif;
@@ -6,21 +8,26 @@ body{
   font-size: 16px;
   color: rgb(110, 110, 110);
   letter-spacing: 1px;
+  margin-right: 0;
+  margin-left: 0;
 }
 #Home{
   display: none;
-}
-#topBanner, #bottomBanner{
-  width: 101%;
-  height: 50px;
-  background-color: white;
-  margin: -9px;
-  text-align: center;
 }
 #topBanner{
   top:0;
   position:fixed;
 }
+#topBanner, #bottomBanner{
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  margin: -12px;
+  text-align: center;
+  margin-right: 0;
+  margin-left: 0;
+}
+
 #bottomBanner{
   margin-bottom: 0px;
   background-color: #282828;
@@ -35,7 +42,8 @@ body{
 }
 #Master{
   width: 320px;
-  margin-left: auto; margin-right: auto; /*I want my Master centered*/
+  margin-left: auto;
+  margin-right: auto; /*I want my Master centered*/
   padding-left: 5px;
   padding-right: 5px;
   margin-top: 0px;
@@ -99,7 +107,7 @@ padding-right: 20px;
 }
 .article1, .article2, .Menu, #SectionAbout,#ContactBox{
   background-color: #f7f3ea;
-  width: 308px;
+  width: 100%;
   height: auto;
   margin-bottom: 10px;
   padding-left: 10px;
@@ -107,16 +115,17 @@ padding-right: 20px;
   padding-bottom: 20px;
   border: 1px solid #f7f3ea;
   margin-top: 21px;
+  margin-left: -10px;
 }
 .FeatureBox{
   background-color: #eadec6;
   width: 291px;
-  float:right;
-  margin-right: 10px;
+  float:left;
   padding: 10px;
   margin-bottom: 50px;
   margin: 0 auto;
   margin-top: 21px;
+  margin-left: 6px;
 }
 .FeatureBoxImage{
   background-color: #eadec6;
@@ -142,12 +151,24 @@ footer{
   font-weight: 300;
   font-style: oblique;
 }
-.LocationBox, .HoursBox{
+#LocationBox{
   width: 102%;
   text-align: center;
-  color: rgb(179, 174, 174);
+  background-color: #f7f3ea;
+  font-size: 14px;
+  margin-top: 21px;
+  padding-top: 5px;
+  padding-bottom: 13px;
+}
+.LocationBox{
+  text-align: center;
+}
+.HoursBox{
+  width: 102%;
+  text-align: center;
   font-size: 14px;
 }
+
 
 .horizontalLine {
   width:50%;
@@ -195,10 +216,10 @@ footer{
 #LocationMap{
   width:300px;
   height: 300px;
-  margin-left: 0px;
   border: 1px solid rgb(85, 79, 79);
   margin-top: 43px;
   margin-bottom: 43px;
+  margin: 0 auto;
 }
 /* /// TEXT FORMATING /// */
 .TestimonialName{
