@@ -328,7 +328,7 @@ padding-top: 30px;
 }
 .article1, .article2, .Menu, #SectionAbout{
   width: 939px;
-  margin-top: 0;
+  margin: 0;
 }
 .FeatureBox{
   width: 293px;
