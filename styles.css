@@ -107,19 +107,20 @@ padding-right: 20px;
 }
 .article1, .article2, .Menu, #SectionAbout,#ContactBox{
   background-color: #f7f3ea;
-  width: 100%;
+  width: 297px;
   height: auto;
+  margin:auto;
   margin-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 20px;
   border: 1px solid #f7f3ea;
   margin-top: 21px;
-  margin-left: -10px;
+
 }
 .FeatureBox{
   background-color: #eadec6;
-  width: 291px;
+  width: 289px;
   float:left;
   padding: 10px;
   margin-bottom: 50px;
@@ -187,11 +188,9 @@ footer{
   text-align: center;
 }
 #PhotoSlider img{
-  width:329px;
+  width:319px;
   height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+
   border:1px solid rgb(179, 174, 174);
 }
 .menuBoxes{
